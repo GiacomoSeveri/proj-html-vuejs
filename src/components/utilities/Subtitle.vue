@@ -10,5 +10,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
 </style>

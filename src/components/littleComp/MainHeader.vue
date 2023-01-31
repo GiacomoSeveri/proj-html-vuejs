@@ -46,7 +46,7 @@ ul {
 
         li {
             padding: 0 15px;
-            font-size: 20px;
+            font-size: 15px;
             cursor: pointer;
         }
     }
