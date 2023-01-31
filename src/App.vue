@@ -1,9 +1,25 @@
 <script>
-
+import AppHeader from './components/AppHeader.vue';
+export default {
+  name: 'App',
+  components: {
+    AppHeader
+  }
+}
 </script>
 
 <template>
-  <div class="text-success">ciao</div>
+  <header>
+    <app-header></app-header>
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer>
+
+  </footer>
 </template>
 
 <style lang="scss">
