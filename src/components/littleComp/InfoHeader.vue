@@ -37,8 +37,7 @@ export default {
 
 <style lang="scss" scoped>
 div {
-    background-color: #131661;
-    opacity: 0.9;
+
 
     ul {
         list-style-type: none;
