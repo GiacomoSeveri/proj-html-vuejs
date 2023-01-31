@@ -13,5 +13,6 @@ export default {
 button {
     color: #ff0052;
     box-shadow: #ff0052 2px 3px;
+    font-weight: 700;
 }
 </style>

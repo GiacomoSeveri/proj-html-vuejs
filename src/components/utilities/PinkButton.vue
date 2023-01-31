@@ -14,6 +14,7 @@ export default {
 button {
     color: #fff;
     box-shadow: #fff 2px 3px;
+    font-weight: 700;
     background-color: #ff0052;
 
     &:hover {
