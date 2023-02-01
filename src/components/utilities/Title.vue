@@ -6,12 +6,12 @@ export default {
 </script>
 
 <template>
-    <h3>{{ title }}</h3>
+    <h2>{{ title }}</h2>
 </template>
 
 <style lang="scss" scoped>
-h3 {
-    font-size: 15px;
-    font-weight: 600;
+h2 {
+    font-size: 25px;
+    font-weight: 700;
 }
 </style>

@@ -1,7 +1,7 @@
 <script>
-import InfoHeader from './littleComp/InfoHeader.vue';
-import MainHeader from './littleComp/MainHeader.vue';
-import JumboHeader from './littleComp/JumboHeader.vue';
+import InfoHeader from './littleComp/headerComps/InfoHeader.vue';
+import MainHeader from './littleComp/headerComps/MainHeader.vue';
+import JumboHeader from './littleComp/headerComps/JumboHeader.vue';
 export default {
     name: 'AppHeader',
     components: { InfoHeader, MainHeader, JumboHeader }

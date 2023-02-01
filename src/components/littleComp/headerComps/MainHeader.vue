@@ -1,7 +1,7 @@
 <script>
-import GamerLogo from '../utilities/GamerLogo.vue';
-import WhiteButton from '../utilities/WhiteButton.vue';
-import PinkButton from '../utilities/PinkButton.vue';
+import GamerLogo from '../../utilities/GamerLogo.vue';
+import WhiteButton from '../../utilities/WhiteButton.vue';
+import PinkButton from '../../utilities/PinkButton.vue';
 export default {
     name: 'MainHeader',
     components: { GamerLogo, WhiteButton, PinkButton },

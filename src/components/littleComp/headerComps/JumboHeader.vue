@@ -1,7 +1,7 @@
 <script>
-import WhiteButton from '../utilities/WhiteButton.vue';
-import Subtitle from '../utilities/subtitle.vue';
-import SectionText from '../utilities/SectionText.vue';
+import WhiteButton from '../../utilities/WhiteButton.vue';
+import Subtitle from '../../utilities/Title.vue';
+import SectionText from '../../utilities/SectionText.vue';
 export default {
     name: 'JamboHeader',
     components: { WhiteButton, Subtitle, SectionText },
@@ -28,10 +28,11 @@ export default {
 <style lang="scss" scoped>
 .ciao {
     margin: 130px 0;
-    width: 50%;
+    width: 55%;
 
     h1 {
         font-weight: 700;
+        font-size: 50px;
     }
 }
 </style>
