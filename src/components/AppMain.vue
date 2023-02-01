@@ -2,9 +2,10 @@
 import TodaySection from './littleComp/mainComps/TodaySection.vue'
 import WhoSection from './littleComp/mainComps/WhoSection.vue'
 import AnySection from './littleComp/mainComps/AnySection.vue'
+import TeamSection from './littleComp/mainComps/TeamSection.vue'
 export default {
     name: 'AppMain',
-    components: { TodaySection, WhoSection, AnySection }
+    components: { TodaySection, WhoSection, AnySection, TeamSection }
 }
 </script>
 
@@ -20,17 +21,20 @@ export default {
     <section id="any" class="text-center">
         <any-section></any-section>
     </section>
+    <section id="team" class="text-center">
+        <team-section></team-section>
+    </section>
 </template>
 
 <style lang="scss" scoped>
 #today {
-    background-color: #131661;
+    background-color: #232a5c;
     height: 75vh;
     padding: 3.5rem;
 }
 
 #who {
-    background-color: #131661;
+    background-color: #232a5c;
     height: 90vh;
     padding: 3.5rem;
 
@@ -45,8 +49,14 @@ export default {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 115vh;
+    height: 120vh;
     padding: 3.5rem;
 
+}
+
+#team {
+    background-color: #232a5c;
+    height: 150vh;
+    padding: 3.5rem;
 }
 </style>

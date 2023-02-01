@@ -1,5 +1,5 @@
 <script>
-import Social from './Social.vue';
+import Social from './SocialImg.vue';
 export default {
     name: 'NextMatch',
     components: { Social },
@@ -14,7 +14,7 @@ export default {
 
 <template>
     <div class="row d-flex justify-content-center">
-        <div class="col-4 mt-4 me-2 d-flex justify-content-between flex-column" v-for="item in details">
+        <div class="col-4 mt-4 mx-3 d-flex justify-content-between flex-column" v-for="item in details">
             <div class="info p-1 d-flex justify-content-between">
                 <span>{{ item.group }}</span>
                 <span>{{ item.pool }}</span>

@@ -1,6 +1,6 @@
 <script>
 import PinkButton from './PinkButton.vue';
-import Social from './Social.vue';
+import Social from './SocialImg.vue';
 export default {
     name: 'NowMatch',
     components: { PinkButton, Social },
@@ -16,12 +16,11 @@ export default {
 
 <template>
     <div class="row d-flex justify-content-center">
-        <div class="col-7 mt-4 d-flex justify-content-between info" v-for="item in items">
+        <div class="col-8 mt-4 d-flex justify-content-between info" v-for="item in items">
             <span>{{ item.group }}</span>
             <span>{{ item.pool }}</span>
         </div>
-        <div class="offset-4"></div>
-        <div class="col-7 m-0 d-flex justify-content-between align-items-center scheduls" v-for="item in items">
+        <div class="col-8 m-0 d-flex justify-content-between align-items-center scheduls" v-for="item in items">
             <div>
                 <p class="m-0">{{ item.torn }}</p>
                 <span class="text-secondary">{{ item.info }}</span>
