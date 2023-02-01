@@ -21,8 +21,13 @@ export default {
     <Title :title="title"></Title>
     <game-card></game-card>
     <white-button :textWhite="textWhite"></white-button>
+    <hr>
 </template>
 
 <style lang="scss" scoped>
-
+hr {
+    color: #fff;
+    width: 50%;
+    margin: 45px 350px;
+}
 </style>
