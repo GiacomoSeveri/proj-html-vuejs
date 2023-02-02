@@ -4,9 +4,10 @@ import WhoSection from './littleComp/mainComps/WhoSection.vue'
 import AnySection from './littleComp/mainComps/AnySection.vue'
 import TeamSection from './littleComp/mainComps/TeamSection.vue'
 import VideoSection from './littleComp/mainComps/VideoSection.vue'
+import ShopSection from './littleComp/mainComps/ShopSection.vue'
 export default {
     name: 'AppMain',
-    components: { TodaySection, WhoSection, AnySection, TeamSection, VideoSection }
+    components: { TodaySection, WhoSection, AnySection, TeamSection, VideoSection, ShopSection }
 }
 </script>
 
@@ -29,7 +30,7 @@ export default {
         <video-section></video-section>
     </section>
     <section id="shop" class="text-center">
-
+        <shop-section></shop-section>
     </section>
 </template>
 
