@@ -28,16 +28,19 @@ export default {
     <section id="video" class="text-center">
         <video-section></video-section>
     </section>
+    <section id="shop" class="text-center">
+
+    </section>
 </template>
 
 <style lang="scss" scoped>
 #today {
-    background-color: #232a5c;
+    background-color: #131661;
     padding: 3.5rem;
 }
 
 #who {
-    background-color: #232a5c;
+    background-color: #131661;
     padding: 3.5rem;
 
     .custom-mis {
@@ -55,7 +58,7 @@ export default {
 }
 
 #team {
-    background-color: #232a5c;
+    background-color: #131661;
     padding: 3.5rem;
 }
 
@@ -65,5 +68,11 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 3.5rem;
+}
+
+#shop {
+    background-color: #131661;
+    padding: 3.5rem;
+    height: 150vh;
 }
 </style>

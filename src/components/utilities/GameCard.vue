@@ -33,7 +33,7 @@ export default {
 .custom-card {
     height: 180px;
     width: 300px;
-    background-color: #131661;
+    background-color: #232a5c;
     border: solid 1px #ff0052;
     border-radius: 5px;
     cursor: pointer;
