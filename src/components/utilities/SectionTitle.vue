@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <h3>{{ section }}</h3>
+    <h3 class="mb-3">{{ section }}</h3>
 </template>
 
 <style lang="scss" scoped>
