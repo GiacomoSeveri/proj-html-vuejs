@@ -12,8 +12,8 @@ export default {
             items: [
                 { img: '01 (1)', name: 'BLACK T-SHIRT HERE', price: '$380.00' },
                 { img: '02 (1)', name: 'GREEN T-SHIRT HERE', price: '$380.00' },
-                { img: '01 (1)', name: 'YELLOW T-SHIRT HERE', price: '$380.00' },
-                { img: '02 (1)', name: 'BLUE T-SHIRT HERE', price: '$380.00' }
+                { img: '03 (2)', name: 'YELLOW T-SHIRT HERE', price: '$380.00' },
+                { img: '04 (1)', name: 'BLUE T-SHIRT HERE', price: '$380.00' }
             ]
         }
     }

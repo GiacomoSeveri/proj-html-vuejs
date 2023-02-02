@@ -54,8 +54,8 @@ export default {
 
 img {
     width: 500px;
-    // height: 300px;
-    object-fit: contain;
+    height: 300px;
+    // object-fit: contain;
     border: solid 7px #232a5c;
 }
 </style>

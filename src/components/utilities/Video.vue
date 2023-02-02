@@ -8,11 +8,11 @@ export default {
         return {
             main: [
                 { img: '01 (3)', text: '2022 LVP SUPERLIGA ORANGE SUMMER', url: '#' },
-                { img: '01 (3)', text: 'PUBG CLASSIC TOURNAMENT', url: '#' }
+                { img: '02', text: 'PUBG CLASSIC TOURNAMENT', url: '#' }
             ],
             sec: [
-                { img: '05', text: 'CAN I ADD MY LOCAL BANK...', url: '#' },
-                { img: '05', text: 'LEAGUE BATTLE TOURNAMENT.', url: '#' },
+                { img: '03 (1)', text: 'CAN I ADD MY LOCAL BANK...', url: '#' },
+                { img: '04', text: 'LEAGUE BATTLE TOURNAMENT.', url: '#' },
                 { img: '05', text: 'WHERE CAN I REDEEM MY...', url: '#' },
             ]
         }

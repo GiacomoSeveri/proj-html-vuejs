@@ -5,9 +5,10 @@ import AnySection from './littleComp/mainComps/AnySection.vue'
 import TeamSection from './littleComp/mainComps/TeamSection.vue'
 import VideoSection from './littleComp/mainComps/VideoSection.vue'
 import ShopSection from './littleComp/mainComps/ShopSection.vue'
+import PartnerSection from './littleComp/mainComps/PartnerSection.vue'
 export default {
     name: 'AppMain',
-    components: { TodaySection, WhoSection, AnySection, TeamSection, VideoSection, ShopSection }
+    components: { TodaySection, WhoSection, AnySection, TeamSection, VideoSection, ShopSection, PartnerSection }
 }
 </script>
 
@@ -31,6 +32,9 @@ export default {
     </section>
     <section id="shop" class="text-center">
         <shop-section></shop-section>
+    </section>
+    <section id="partner" class="text-center">
+        <partner-section></partner-section>
     </section>
 </template>
 
@@ -74,6 +78,10 @@ export default {
 #shop {
     background-color: #131661;
     padding: 3.5rem;
-    height: 150vh;
+}
+
+#partner {
+    background-color: #131661;
+    padding: 3rem;
 }
 </style>
