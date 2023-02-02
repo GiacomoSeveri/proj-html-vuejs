@@ -3,9 +3,10 @@ import TodaySection from './littleComp/mainComps/TodaySection.vue'
 import WhoSection from './littleComp/mainComps/WhoSection.vue'
 import AnySection from './littleComp/mainComps/AnySection.vue'
 import TeamSection from './littleComp/mainComps/TeamSection.vue'
+import VideoSection from './littleComp/mainComps/VideoSection.vue'
 export default {
     name: 'AppMain',
-    components: { TodaySection, WhoSection, AnySection, TeamSection }
+    components: { TodaySection, WhoSection, AnySection, TeamSection, VideoSection }
 }
 </script>
 
@@ -24,18 +25,19 @@ export default {
     <section id="team" class="text-center">
         <team-section></team-section>
     </section>
+    <section id="video" class="text-center">
+        <video-section></video-section>
+    </section>
 </template>
 
 <style lang="scss" scoped>
 #today {
     background-color: #232a5c;
-    height: 75vh;
     padding: 3.5rem;
 }
 
 #who {
     background-color: #232a5c;
-    height: 90vh;
     padding: 3.5rem;
 
     .custom-mis {
@@ -49,14 +51,19 @@ export default {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 120vh;
     padding: 3.5rem;
-
 }
 
 #team {
     background-color: #232a5c;
-    height: 150vh;
+    padding: 3.5rem;
+}
+
+#video {
+    background-image: url('imgs/bg (3).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 3.5rem;
 }
 </style>
