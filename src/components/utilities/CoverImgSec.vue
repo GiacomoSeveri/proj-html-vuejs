@@ -43,6 +43,10 @@ export default {
     a {
         text-decoration: none;
         color: #5F0F40;
+
+        &:hover {
+            color: #ff0052;
+        }
     }
 }
 

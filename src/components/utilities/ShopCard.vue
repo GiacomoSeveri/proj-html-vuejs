@@ -31,5 +31,14 @@ export default {
     i {
         cursor: pointer;
     }
+
+    &:hover {
+        background-color: #5F0F40;
+
+        img {
+            border: solid 10px #5F0F40;
+
+        }
+    }
 }
 </style>

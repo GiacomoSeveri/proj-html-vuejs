@@ -40,5 +40,11 @@ export default {
     p {
         font-size: 12px;
     }
+
+    &:hover {
+        h5 {
+            color: #5F0F40;
+        }
+    }
 }
 </style>
