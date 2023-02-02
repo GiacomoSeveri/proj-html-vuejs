@@ -34,7 +34,7 @@ export default {
     height: 180px;
     width: 300px;
     background-color: #232a5c;
-    border: solid 1px #ff0052;
+    border: solid 1px #5F0F40;
     border-radius: 5px;
     cursor: pointer;
     margin: 50px;

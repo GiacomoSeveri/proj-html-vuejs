@@ -11,8 +11,8 @@ export default {
 
 <style lang="scss" scoped>
 h3 {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
-    color: #ff0052;
+    color: #5F0F40;
 }
 </style>

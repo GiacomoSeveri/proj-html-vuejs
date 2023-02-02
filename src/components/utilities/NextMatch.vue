@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss" scoped>
 .info {
-    background-color: #ff0052;
+    background-color: #5F0F40;
 }
 
 .bgc-custom {

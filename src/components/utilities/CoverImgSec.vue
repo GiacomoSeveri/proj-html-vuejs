@@ -42,7 +42,7 @@ export default {
 
     a {
         text-decoration: none;
-        color: #ff0052;
+        color: #5F0F40;
     }
 }
 

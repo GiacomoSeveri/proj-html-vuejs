@@ -6,9 +6,10 @@ import TeamSection from './littleComp/mainComps/TeamSection.vue'
 import VideoSection from './littleComp/mainComps/VideoSection.vue'
 import ShopSection from './littleComp/mainComps/ShopSection.vue'
 import PartnerSection from './littleComp/mainComps/PartnerSection.vue'
+import NewsSection from './littleComp/mainComps/NewsSection.vue'
 export default {
     name: 'AppMain',
-    components: { TodaySection, WhoSection, AnySection, TeamSection, VideoSection, ShopSection, PartnerSection }
+    components: { TodaySection, WhoSection, AnySection, TeamSection, VideoSection, ShopSection, PartnerSection, NewsSection }
 }
 </script>
 
@@ -35,6 +36,9 @@ export default {
     </section>
     <section id="partner" class="text-center">
         <partner-section></partner-section>
+    </section>
+    <section id="news" class="text-center">
+        <news-section></news-section>
     </section>
 </template>
 
@@ -83,5 +87,14 @@ export default {
 #partner {
     background-color: #131661;
     padding: 3rem;
+}
+
+#news {
+    background-image: url('imgs/bg (2).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3.5rem;
+    // height: 100vh;
 }
 </style>

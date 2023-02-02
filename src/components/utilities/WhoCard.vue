@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss" scoped>
 img {
-    background-color: #ff0052;
+    background-color: #5F0F40;
     padding: 10px;
     border-radius: 50%;
     width: 50px;

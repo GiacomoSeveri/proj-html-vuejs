@@ -7,7 +7,7 @@ export default {
     data() {
         return {
             main: [
-                { img: '01 (3)', text: '2022 LVP SUPERLIGA ORANGE SUMMER', url: '#' },
+                { img: '01', text: '2022 LVP SUPERLIGA ORANGE SUMMER', url: '#' },
                 { img: '02', text: 'PUBG CLASSIC TOURNAMENT', url: '#' }
             ],
             sec: [

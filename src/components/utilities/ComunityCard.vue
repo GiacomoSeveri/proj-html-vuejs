@@ -40,7 +40,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 2rem;
-    border: solid 1px #ff0052;
+    border: solid 1px #5F0F40;
 }
 
 img {

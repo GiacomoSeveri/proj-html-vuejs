@@ -15,11 +15,11 @@ button {
     color: #fff;
     box-shadow: #fff 2px 3px;
     font-weight: 700;
-    background-color: #ff0052;
+    background-color: #5F0F40;
 
     &:hover {
         color: #000;
-        background-color: #e20048;
+        background-color: #ff0052;
     }
 }
 </style>

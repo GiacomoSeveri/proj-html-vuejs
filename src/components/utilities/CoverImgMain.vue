@@ -42,7 +42,7 @@ export default {
 
     a {
         text-decoration: none;
-        color: #ff0052;
+        color: #5F0F40;
     }
 }
 
@@ -54,8 +54,8 @@ export default {
 
 img {
     width: 500px;
-    height: 300px;
-    // object-fit: contain;
+    // height: 300px;
+    object-fit: contain;
     border: solid 7px #232a5c;
 }
 </style>
