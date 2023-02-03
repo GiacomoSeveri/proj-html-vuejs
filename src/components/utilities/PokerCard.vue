@@ -16,5 +16,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+div:hover {
+    color: #5F0F40;
+}
 </style>
